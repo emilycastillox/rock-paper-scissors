@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Lato', sans-serif, Helvetica;
+}
+
+body{
+  background-color: maroon;
+  color: white;
+}
+
+table{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img{
+  height: 200px;
+
+  margin: 20px;
+}
+
+header{
+  height: 100px;
+  border: 7px dotted yellow;
+  padding-bottom: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.scoreboard{
+  color: rgb(255, 255, 121);
+}
+
+button{
+  border: none;
+  width: 15%;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+#rock{
+  background: rgb(255, 187, 198);
+}
+
+#rock:hover{
+  background: fuchsia;
+  color: white;
+}
+
+#paper{
+  background: rgb(196, 255, 196);
+}
+
+#paper:hover{
+  background: rgb(25, 255, 5);
+  color: blue;
+}
+
+#scissors{
+  background: lightskyblue;
+}
+
+#scissors:hover{
+  background: rgb(38, 0, 255);
+  color: white;
+}
+
+#status{
+  height:50px;
+  margin: 30px;
+}

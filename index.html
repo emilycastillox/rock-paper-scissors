@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="UTF-8">
+
+	<title> Player vs Computer </title>
+
+	<link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+<h1>Play Rock, Paper, Scissors by Yourself!</h1>
+</header>
+<section>
+  <img src="alone.png" alt="">
+</section>
+<section>
+  <p>Have no one to play with? Well, you're in luck. A bot has challenged you to a game.</p>
+</section>
+<section>
+  <span> Remember: </span>
+  <p><strong>Rock</strong> beats <strong>scissors</strong>, <strong>scissors</strong> beats <strong>paper</strong>, and <strong>paper</strong> beats <strong>rock</strong>.
+  </p>
+</section>
+<div class="scoreboard">
+  <h2>Scoreboard</h2>
+  <table>
+    <tbody>
+      <tr>
+        <td id="humanScore">0</td>
+        <td id="computerScore">0</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th>You</th>
+        <th>Bot</th>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+<h2 class="choose">Choose Wisely</h2>
+
+<button id="rock">Rock</button>
+
+<button id="paper">Paper</button>
+
+<button id="scissors">Scissors</button>
+
+
+<div id="status"></div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
