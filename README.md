@@ -4,7 +4,7 @@ This game allows you to play rock, paper, scissors with a bot on the computer, i
 
 **Link to project:** https://ecrock.netlify.app
 
-![slot](https://user-images.githubusercontent.com/102037717/165100197-a0f6c403-16e1-44e4-9236-1ea0efd8369e.png)
+![rock](https://user-images.githubusercontent.com/102037717/165101535-5a599d3b-0781-4f46-b98b-94b131cb8ae9.png)
 
 ## How It's Made:
 
